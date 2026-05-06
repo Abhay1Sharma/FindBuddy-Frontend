@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 
-const backendUrl = "http://localhost:3001";
+const backendUrl = "https://find-buddy-backend.vercel.app";
 
 function Hero() {
     const [searchParams] = useSearchParams();

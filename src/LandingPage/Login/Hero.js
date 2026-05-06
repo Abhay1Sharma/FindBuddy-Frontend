@@ -13,7 +13,7 @@ function Hero() {
         password: ''
     });
 
-      const backendUrl = "http://localhost:3001";
+      const backendUrl = "https://find-buddy-backend.vercel.app";
 
 
     const [loading, setLoading] = useState(false);

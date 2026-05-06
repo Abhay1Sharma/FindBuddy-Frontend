@@ -12,7 +12,7 @@ function Hero() {
   const { user } = useAuth();
 
   const frontendUrl = "http://localhost:3000";
-  const backendUrl = "http://localhost:3001";
+  const backendUrl = "https://find-buddy-backend.vercel.app/";
   const dashboardUrl = "http://localhost:3002";
 
 
