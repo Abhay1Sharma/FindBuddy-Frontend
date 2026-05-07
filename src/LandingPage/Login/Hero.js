@@ -42,7 +42,7 @@ function Hero() {
             // If the server is sending a 400 because of the DB error we saw, this will tell you:
             const message = err.response?.data?.message || "Invalid Username or Password";
             toast.error(message);
-            console.error("Login Error:", err.response?.data);
+            console.error("Login Error:", err);
         } finally {
             setLoading(false);
         }
