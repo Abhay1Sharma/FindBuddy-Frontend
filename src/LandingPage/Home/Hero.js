@@ -12,7 +12,7 @@ function Hero() {
   const { user } = useAuth();
 
   const frontendUrl = "https://find-buddy-frontend.vercel.app";
-  const backendUrl = "https://findbuddy-back.onrender.com";
+  const backendUrl = "https://find-buddy-backend.vercel.app";
   const dashboardUrl = "https://find-buddy-dashboard.vercel.app";
 
 

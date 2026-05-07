@@ -13,7 +13,7 @@ function Hero() {
         password: ''
     });
 
-      const backendUrl = "https://findbuddy-back.onrender.com";
+      const backendUrl = "https://find-buddy-backend.vercel.app";
 
 
     const [loading, setLoading] = useState(false);
