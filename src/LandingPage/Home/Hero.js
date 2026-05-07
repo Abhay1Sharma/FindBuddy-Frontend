@@ -11,9 +11,9 @@ function Hero() {
   const navigate = useNavigate();
   const { user } = useAuth();
 
-  const frontendUrl = "http://localhost:3000";
-  const backendUrl = "https://find-buddy-backend.vercel.app/";
-  const dashboardUrl = "http://localhost:3002";
+  const frontendUrl = "https://find-buddy-frontend.vercel.app";
+  const backendUrl = "https://findbuddy-back.onrender.com";
+  const dashboardUrl = "https://find-buddy-dashboard.vercel.app";
 
 
   const start = async () => {

@@ -8,7 +8,7 @@ import Login from "../Login/Hero.js";
 import axios from "axios";
 import { useAuth } from '../../AuthjsContext.js';
 
-const backendUrl = "https://find-buddy-backend.vercel.app";
+const backendUrl = "https://findbuddy-back.onrender.com";
 
 function Hero() {
     const navigate = useNavigate();

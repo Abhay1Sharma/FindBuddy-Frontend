@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Hero() {
 
-      const dashboardUrl = "http://localhost:3002";
+      const dashboardUrl = "https://find-buddy-dashboard.vercel.app";
 
 
     const handlelogout = () => {
