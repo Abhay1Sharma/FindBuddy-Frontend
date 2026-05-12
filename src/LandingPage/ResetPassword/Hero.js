@@ -9,7 +9,7 @@ function ResetPassword() {
     const [confirmPassword, setConfirmPassword] = useState('');
     const [loading, setLoading] = useState(false);
 
-    const backendUrl = "https://findbuddy-back.onrender.com";
+    const backendUrl = "https://find-buddy-backend.vercel.app";
 
     const navigate = useNavigate();
     const token = searchParams.get('token');

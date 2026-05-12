@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const backendUrl = "https://findbuddy-back.onrender.com";
+const backendUrl = "https://find-buddy-backend.vercel.app";
 
 function Hero() {
     const [email, setEmail] = useState('');
