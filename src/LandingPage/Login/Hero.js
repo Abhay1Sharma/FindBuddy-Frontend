@@ -13,8 +13,8 @@ function Hero() {
         password: ''
     });
 
-      const backendUrl = process.env.REACT_APP_BACKEND_URL;
-
+    const backendUrl = process.env.REACT_APP_BACKEND_URL;
+    console.log("Backend Url : ", backendUrl);
 
     const [loading, setLoading] = useState(false);
 
