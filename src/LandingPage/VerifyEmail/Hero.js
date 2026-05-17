@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 
-const backendUrl = "https://findbuddy-back.onrender.com";
+const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
 function Hero() {
     const [searchParams] = useSearchParams();

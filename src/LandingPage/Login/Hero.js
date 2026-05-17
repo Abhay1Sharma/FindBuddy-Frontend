@@ -13,7 +13,7 @@ function Hero() {
         password: ''
     });
 
-      const backendUrl = "https://findbuddy-back.onrender.com";
+      const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
 
     const [loading, setLoading] = useState(false);

@@ -1,4 +1,5 @@
 import React from "react";
+import "dotenv/config";
 import axios from "axios";
 import { Button } from "@mui/material";
 import { toast } from "react-toastify";
@@ -11,9 +12,9 @@ function Hero() {
   const navigate = useNavigate();
   const { user } = useAuth();
 
-  const frontendUrl = "https://find-buddy-frontend.vercel.app";
-  const backendUrl = "https://findbuddy-back.onrender.com";
-  const dashboardUrl = "https://find-buddy-dashboard.vercel.app";
+  const frontendUrl = process.env.REACT_APP_FRONTEND_URL;
+  const backendUrl = process.env.REACT_APP_BACKEND_URL;
+  const dashboardUrl = process.env.REACT_APP_DASHBOARD_URL;
 
 
   const start = async () => {

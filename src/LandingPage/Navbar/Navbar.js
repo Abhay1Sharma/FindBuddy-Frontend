@@ -1,16 +1,16 @@
 import { useAuth } from '../../AuthjsContext';
 import { Link } from 'react-router-dom';
 
-  const dashboardUrl = "https://find-buddy-dashboard.vercel.app";
+const dashboardUrl = process.env.REACT_APP_DASHBOARD_URL;
 
 const Navbar = () => {
 
-const handlelogout = () => {
-  localStorage.clear();
-  setUser(null); // Clear context
-  // Bounce to 3002 to clear it, which then redirects back to 3000/login
-  window.location.href = `${dashboardUrl}/logout-sync`;
-};
+  const handlelogout = () => {
+    localStorage.clear();
+    setUser(null); // Clear context
+    // Bounce to 3002 to clear it, which then redirects back to 3000/login
+    window.location.href = `${dashboardUrl}/logout-sync`;
+  };
 
   const { user, setUser } = useAuth(); // Destructure setUser from your context
 

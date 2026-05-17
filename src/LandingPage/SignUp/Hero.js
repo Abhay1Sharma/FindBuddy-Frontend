@@ -8,7 +8,7 @@ import Login from "../Login/Hero.js";
 import axios from "axios";
 import { useAuth } from '../../AuthjsContext.js';
 
-const backendUrl = "https://findbuddy-back.onrender.com";
+const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
 function Hero() {
     const navigate = useNavigate();
