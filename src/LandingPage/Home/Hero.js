@@ -1,5 +1,4 @@
 import React from "react";
-import "dotenv/config";
 import axios from "axios";
 import { Button } from "@mui/material";
 import { toast } from "react-toastify";
